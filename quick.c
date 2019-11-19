@@ -2,7 +2,7 @@
  
 int split(int a[], int low, int n) 
 { 
-int pivot = a[n],temp; 
+int pivot = a[n],temp,temp1; 
 int i = (low - 1); 
 
 for (int j = low; j <= n- 1; j++) 
@@ -17,9 +17,9 @@ if (a[j] < pivot)
 		
 }
 
-temp=a[i+1];
+temp1=a[i+1];
 a[i+1]=a[n];
-a[n]=temp;
+a[n]=temp1;
 return(i+1);
  
 } 
