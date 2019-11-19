@@ -8,6 +8,7 @@ int n = sizeof(a)/sizeof(a[0]);
 bubble(a,n);
 insertion(a,n);
 selection(a,n);
+quick(a,0,n-1);      
 
        // printf("Sorted array: \n");
        // printArray(arr, n);
