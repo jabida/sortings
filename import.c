@@ -9,7 +9,7 @@ bubble(a,n);
 insertion(a,n);
 selection(a,n);
 quick(a,0,n-1);      
-
+merge(a,0,n);
        // printf("Sorted array: \n");
        // printArray(arr, n);
         return 0;
